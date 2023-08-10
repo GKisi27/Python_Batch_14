@@ -6,7 +6,7 @@ url = requests.get('https://dzone.com/articles/best-programming-jokes-amp-quotes
 soup = BeautifulSoup(url,'lxml')
 # print(soup)
 
-webpage_name = soup.title.string
+web_name = soup.title.string
 # print(webpage_name)
 
 ordered_list =  soup.find('ol')
