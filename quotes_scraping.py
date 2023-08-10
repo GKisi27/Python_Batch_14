@@ -16,14 +16,14 @@ quotes = []
 for ql in quotes_list:
     quotes.append(ql.text)
 
-# for q in quotes:
-#     print(q)
-#     print()
+for q in quotes:
+    print(q)
+    print()
 
-with open("Quotes.txt", "w") as wf:
-    for q in quotes:
-        wf.write(q.strip())
-        wf.write("\n")
+# with open("Quotes.txt", "w") as wf:
+#     for q in quotes:
+#         wf.write(q.strip())
+#         wf.write("\n")
 
 
 
